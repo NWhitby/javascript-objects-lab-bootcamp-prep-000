@@ -12,9 +12,9 @@ return Object.assign({},object,{[key]: value});
 }
 
 function deleteFromObjectByKey(object, key){
-  let newObject =  Object.assign({},object)  
+  let newObject =  Object.assign({},object);  
   delete newObject[key]
-  return newObjrct;
+  return newObject;
 }
 
   function destructivelyDeleteFromObjectByKey(object, key){
